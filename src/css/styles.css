@@ -20,6 +20,7 @@ body {
   margin-top: 40px;
   margin-bottom: 16px;
   border-radius: 5px;
+  
 }
 
 li {
@@ -27,9 +28,21 @@ li {
 }
 
 .country-info{
+  margin-top: 30px;
   max-width: max-content;
-  text-align: left;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
 
+.item_country{  
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+}
+
+.weather {
+  text-align: center;
+}

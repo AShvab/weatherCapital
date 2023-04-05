@@ -75,7 +75,7 @@ function searchListCountry(response) {
 function searchOneCountry(response) {
     const country = response[0];
     const markup = `<div class="item_country">
-      <img class="img" src="${country.flags.svg}" width=80 alt="flag">
+      <img class="img" src="${country.flags.svg}" width="300px" alt="flag">
       <h1 class="title">${country.name.official}</h1>
     </div>
     <p class="text"><span>Capital:</span> ${country.capital}</p>
